@@ -1,0 +1,14 @@
+What is java?
+Java is high level Object Oriented programming language developed by sun microsystem in 1995. 
+It is platform independent language. It has standard library comes with wide range of tools, classes and method.
+It also has automatic memory management.
+
+Application of java:
+Web application development (backend services, servlets, JSP)
+Desktop applications (using frameworks)
+Mobile applications (Android development)
+Enterprise applications 
+Scientific and research applications
+Game development 
+Internet of Things (IoT) development
+Cloud services and microservices

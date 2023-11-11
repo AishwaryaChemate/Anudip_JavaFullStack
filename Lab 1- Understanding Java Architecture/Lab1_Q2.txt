@@ -1,0 +1,31 @@
+What is the full form of JVM. Explain its architecture briefly.
+Java Virtural Machine is abbrevated as JVM. 
+The architecture of the JVM is designed to execute Java bytecode efficiently while providing platform independence. Here's a brief overview of its key components and their roles:
+
+1.Class Loader: The Class Loader subsystem is responsible for loading classes (both system and user-defined) into memory. It searches for class files on the classpath and dynamically loads them as needed.
+
+2.Bytecode Verifier: The Bytecode Verifier ensures the integrity and security of the loaded bytecode by checking for various properties, such as valid bytecode format, proper method calls, and memory access restrictions.
+
+3.Runtime Data Areas:
+    Method Area: This area stores class-level structures such as class metadata, constant pools, and static fields.
+    Heap: The Heap is where object instances are allocated and memory for objects is managed. It's shared among all threads.
+    Stack: Each thread has its own stack, which holds method-specific data, local variables, and partial results.
+    PC Registers: PC (Program Counter) Registers hold the address of the currently executing JVM instruction for each thread.
+    Native Method Stack: This area is used to execute native (non-Java) methods.
+
+4.Execution Engine: The Execution Engine interprets or compiles the bytecode into machine-specific instructions. 
+There are two main types of execution engines: 
+a.the Interpreter (which executes bytecode line by line) and the Just-In-Time (JIT) 
+b.Compiler (which translates bytecode into native machine code for faster execution).
+
+5.Native Interface: The Native Interface allows Java code to interact with native libraries written in languages like C and C++. 
+It enables Java programs to make calls to methods implemented outside the JVM.
+
+6.Java Native Interface (JNI): JNI provides a standard way for Java code to call native methods and libraries, bridging the gap between Java and native code.
+
+7.Threading: The JVM supports multi-threading, allowing multiple threads to run concurrently within a single process. 
+Each thread has its own program counter, stack, and local variables.
+
+8.Security Manager: The Security Manager enforces security policies to control the actions that Java code can perform, protecting the system from malicious code.
+
+9.Garbage Collector: The Garbage Collector manages memory by automatically reclaiming memory occupied by objects that are no longer referenced, preventing memory leaks.

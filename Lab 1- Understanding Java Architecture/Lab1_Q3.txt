@@ -1,0 +1,8 @@
+Why is Java known as a platform independent language?
+
+1.Java program can be write one time and run multiple times on different platform without any modification to program. 
+2.Java doesn't produce machine-specific binary code. Instead, the bytecode is a standardized set of instructions that the JVM can understand.
+3.Since the bytecode is the same regardless of the platform.
+4.You can take your compiled Java program (the .class files) and run it on any system that has a compatible JVM. 
+5.The JVM on that system will interpret the bytecode and execute it using the machine-specific instructions.
+6.That is why java is known as a platform independent language.

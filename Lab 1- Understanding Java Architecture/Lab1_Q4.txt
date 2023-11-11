@@ -1,0 +1,17 @@
+Write a program to print "Hello world". What commands will you give to run it on command prompt.
+
+public class HelloWorld{
+	public static void main(String[] args){
+		System.out.println("Hello World!!");
+	}
+}
+
+1.Save the above file as "HelloWorld.java".
+2.To run java file we should hava JDK installed in our computer.
+3.Open command prompt. Use 'cd' command to navigate through directory. Go to appropriate directory where this program is saved.
+4.Compile the file using 'javac' command. c is for compiler to tell that given file has to be compiled.
+5.Firstly for Compilation we will use : javac HelloWorld.java
+6.Then it will create "HelloWorld.class" classfile.
+7.To run the compiled given file use 'java' command. we will use: java HelloWorld
+8.and we will get output as: 
+	Hello World!!
