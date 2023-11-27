@@ -1,0 +1,6 @@
+Write the difference between public method and private method.
+Public method:										   Private method:
+	1) Visibility is more than private.					    1) Visibility is least.
+	2) Accessible for another classes of same package.		2) Not Accessible for another classes.
+	3) Accessible for classes of different package.			3) Not accessible for classes of different package.
+	
