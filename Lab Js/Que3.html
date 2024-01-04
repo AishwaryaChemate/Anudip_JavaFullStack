@@ -1,0 +1,43 @@
+<!--Write a java script program which will implements the Loops(For Loop/ For-In/ while Loop /do-while loop) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Example</title>
+</head>
+<body>
+
+<script>
+    // For Loop
+    console.log("Using For Loop:");
+    for (let i = 1; i <= 5; i++) {
+        document.write(i + "<br>");
+    }
+
+    // For-In Loop
+    document.write("<br>Using For-In Loop:<br>");
+    const numbers = [1, 2, 3, 4, 5];
+    for (let index in numbers) {
+        document.write(numbers[index] + "<br>");
+    }
+
+    // While Loop
+    document.write("<br>Using While Loop:<br>");
+    let counter = 1;
+    while (counter <= 5) {
+        document.write(counter + "<br>");
+        counter++;
+    }
+
+    // Do-While Loop
+    document.write("<br>Using Do-While Loop:<br>");
+    let doWhileCounter = 1;
+    do {
+        document.write(doWhileCounter + "<br>");
+        doWhileCounter++;
+    } while (doWhileCounter <= 5);
+</script>
+
+</body>
+</html>
