@@ -1,0 +1,39 @@
+
+Methods: 
+
+1) Methods in Java are block of code within a class that perform a specific action or computation when called. 
+   They define the behavior or functionality of objects and can be invoked multiple times with different arguments.
+   
+2) Methods have a return type, which specifies the type of value that the method can return. Methods can return a 
+   value using the return statement, or they can have a void return type, indicating that they don't return 
+   any value.
+   
+3) Methods have names that are used to call them explicitly. Method names are chosen by the programmer and should 
+   reflect the action or operation being performed.
+ 
+4) Methods can be overloaded, which means you can define multiple methods in the same class with the same name but 
+   different parameter lists (different in terms of the number or types of parameters).
+   
+6) Methods can have different access specifiers like public, private, protected, or package-private (default). The 
+   access specifier determines where the method can be accessed from.
+
+
+Constructor:
+
+1) Constructors in Java are special methods that are used to initialize objects when they are created. 
+   They set the initial state of an object and are called only once during object instantiation.
+
+2) Constructors do not have a return type, not even void. They are implicitly called when an object is created and 
+   are responsible for initializing the object's state. They don't return any value.
+   
+3) Constructors have the same name as the class in which they are defined. This is a convention in Java, and 
+   constructors must have the same name as the class to be recognized as constructors.
+
+4) Constructors can also be overloaded. You can define multiple constructors in the same class with different 
+   parameter lists to provide various ways of initializing objects.
+   
+6) Constructors can also have access specifiers, but their primary purpose is to initialize objects. The access 
+   specifier can control the visibility of the constructor to other classes when creating objects. So constructors
+   are never private.
+   
+   
